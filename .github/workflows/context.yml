@@ -1,0 +1,7 @@
+name: Contests
+on: push
+jobs:
+    print:
+        runs-on: uubuntu-latest
+        steps:
+            - run: echo "${{ github.actor}}"
